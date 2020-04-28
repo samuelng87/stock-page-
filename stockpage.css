@@ -1,4 +1,11 @@
 
+
+.available-green {
+    color:green;
+    font-weight: bold;
+}
+
+
 /**an image and fb pro of chicks **/
 
 .thaichick {
@@ -82,6 +89,7 @@ top: 44px;
 
 img {
     width:100%;
+
 }
 
       /****this is design for your border radius****/
@@ -150,6 +158,7 @@ padding-top: -4px;
     }
 
     header {
+        font-weight: bolder;
       position: absolute;
       display: flex;
       justify-content: center;
@@ -183,6 +192,10 @@ padding-top: -4px;
         
     }
 
+    img {
+        height: 100%;
+    }
+
     @media (min-width:800px) {
 
         footer {  font-size: 12px;}
@@ -193,3 +206,13 @@ padding-top: -4px;
         }
 
     }
+    
+    
+    /**
+    <tr>
+                    
+    <a target="_blank" href="https://www.facebook.com/puttachart.klamsiri">
+    <img class="thaichick" src="https://scontent.fsyd3-1.fna.fbcdn.net/v/t1.0-9/51279098_2605920622767754_8419106000128180224_n.jpg?_nc_cat=110&_nc_sid=13bebb&_nc_oc=AQn2QsOJOoKrvr7-1xk1U1c4Q4VCpY6XqM77jAZIcNmWMW1NOvHtz7m_QRD_UvmNphM&_nc_ht=scontent.fsyd3-1.fna&oh=47e27b68cf4518cf3c9e202d718930e9&oe=5ECAA613" alt="thaichick"></a>
+</tr>
+
+<td class="available-green">7</td>
